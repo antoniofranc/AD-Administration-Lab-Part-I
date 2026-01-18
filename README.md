@@ -1,14 +1,10 @@
 # Active Directory Administration Part I
 
 ## 📋 Table of Contents
-- Tasks
 - Task 1: Manage Users
 - Task 2: Manage Groups and OUs
 - Task 3: Manage Group Policy Objects
 ---
-## 🎯 Overview
-This project simulates real-world Active Directory administration tasks that IT professionals perform daily. You'll work as a domain administrator for Inlanefreight corporation, handling helpdesk tickets and administrative tasks.
-
 ## Learning Objectives
 - Add and remove user accounts in Active Directory
 - Create and manage Organizational Units (OUs)
@@ -215,7 +211,9 @@ New-ADGroup -Name "Security Analysts" `
   -Description "Members of this group are Security Analysts under the IT OU"
 ```
 **🖱️ GUI Method**
+
 1- Right-click Security Analysts OU → New → Group
+
 2- Configure group:
 - Group name: Security Analysts
 - Group scope: Global
